@@ -1,104 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
+    <head>
+
+        <title>My first html</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+
+    <body>
+
+        <h1>This is Heading 1</h1>
+        <h2>This is Heading 2</h2>
+        <h3>This is Heading 3</h3>
+        <h4>This is Heading 4</h4>
+        <h5>This is Heading 5</h5>
+        <h6>This is Heading 6</h6>
+
+        <div>
+
+            <h2>Aleks</h2>
+            <p>Hi I'm Aleks, aspiring web developer. I like web design, gardening and cats.</p>
+            <img src="https://images.unsplash.com/photo-1618826411640-d6df44dd3f7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="Cat looking straight at the viewer" width="250px">
+
+        </div>
     
-<head>
-	<title>Our amazing quiz</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-</head>
+    </body>
 
-<body>
-
-	<h1> Pub Quiz </h1>
-
-    <p>
-    	<label for="name">Your name:</label>
-	    <input type="text" id="name" name="name" required minlength="2" maxlength="20" size="20">
-    </p>
-
-    <p>
-    	<label for="dob">Your date of birth:</label>
-    	<input type="date" id="dob" name="dob" value="1980-01-01" min="1900-01-01" max="2023-01-18">
-	</p>
-
-    <h2>Question 1</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/U%2B2135.svg/99px-U%2B2135.svg.png" alt="aleph"><br>
-    <p>Of which alphabet is aleph the first letter?</p>
-    <form>
-       <input type="checkbox" id="Greek" name="Greek" value="Greek">
-       <label for="Greek">Greek<label><br>
-       <input type="checkbox" id="Bulgarian" name="Bulgarian" value="Bulgarian">
-       <label for="Bulgarian">Bulgarian<label><br>
-       <input type="checkbox" id="Hebrew" name="Hebrew" value="Hebrew">
-       <label for="Hebrew">Hebrew<label><br>
-       <input type="checkbox" id="Cyrillic" name="Cyrillic" value="Cyrillic">
-       <label for="Cyrillic">Cyrillic><br>
-    </form>
-
-    <h2> Question 2 </h2>
-    <p> Which of these pairs of animals are most likely to meet in the wild? </p>
-	<form>
-        <input type="checkbox" id="A penguin and a polar bear" name="A penguin and a polar bear" value="A penguin and a polar bear">
-        <label for="A penguin and a polar bear">A penguin and a polar bear</label><br>
-        <input type="checkbox" id"A leopard and a cheetah" name="leopard and a cheetah" value="A leopard and a cheetah">
-        <label for="A leopard and a cheetah">A leopard and a cheetah</label><br>  
-        <input type="checkbox" id="A gorilla and an orang-utan" name="A gorilla and an orang-utan" value="A gorilla and an orang-utan">
-        <label for="A gorilla and an orang-utan">A gorilla and an orang-utan</label><br>
-        <input type="checkbox" id="A lemur and a wallaby" name="A lemur and a wallaby" value="A lemur and a wallaby">
-        <label for="A lemur and a wallaby">A lemur and a wallaby</label><br>
-    </form>
-		
-    
-    <h2> Question 3 </h2>
-    	<img src="https://i.discogs.com/AykxUWUagZ88LIs0t1znn5iBBUprTfG0geaRihboZyw/rs:fit/g:sm/q:90/h:475/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyODYz/Ni0xNjMwNjczODYy/LTQxNjMuanBlZw.jpeg"
-      		alt="aleph" width="200px"/><br>
-    	    <label for="quantity">How many Number 1 hits has David Hasselhoff had in Germany?:</label><br>
-          <input type="number" id="quantity" name="quantity" min="0" max="5">
-    
-		<h2> Question 4 </h2>
-    	<p>In early Victorian Times who were called Pythagoreans?</p>
-    	<form>
-        <input type="checkbox" id="vegetarians" name="vegetarians">
-        <label for="vegetarians">Vegetarians</label><br>
-        <input type="checkbox" id="mathematicians" name="mathematicians">
-        <label for="mathematicians">Mathematicians</label><br>
-        <input type="checkbox" id="freemasons" name="freemasons">
-        <label for="freemasons">Freemasons</label><br>
-        <input type="checkbox" id="suffragettes" name="suffragettes">
-        <label for="suffragettes">Suffragettes</label><br>
-        </form>
-    <h2> Question 5</h2>
-    	<p>A device capable of storing electricity consisting of conducting plates separated by a layer of insulating material is given what name?</p>
-        <form>
-        <input type="checkbox" id="Dynamo" name="Dynamo">
-        <label for="checkbox">Dynamo</label><br>
-        <input type="checkbox" id="Transistor" name="Transistor">
-        <label for="checkbox">Transistor</label><br>
-        <input type="checkbox" id="Battery" name="Battery">
-        <label for="checkbox">Battery</label><br>
-        <input type="checkbox" id="Capacitor" name="capacitor">
-        <label for="checkbox">Capacitor</label><br>
-        </form>
-        
-    <h2> Question 6 </h2>
-    
-        <p>Which of these countries is closest to the Isle of Man?</p>
-
-        <form>
-          <input type="radio" id="Northern Ireland" name="countries" value="Northern Ireland">
-          <label for="Northern Ireland">Northern Ireland</label><br>
-          <input type="radio" id="Wales" name="countries" value="Wales">
-          <label for="Wales">Wales</label><br>
-          <input type="radio" id="Scotland" name="countries" value="Scotland">
-          <label for="Scotland">Scotland</label><br>
-          <input type="radio" id="England" name="countries" value="England">
-          <label for="England">England</label><br>
-        </form>
-
-
-		<p>Submit your answers below:</p>
-    <input type="image" id="image" alt="Click here" width="150px" src="https://www.pngkit.com/png/full/238-2384957_click-here-find-out-more-button.png">
-    
-</body>
 </html>
