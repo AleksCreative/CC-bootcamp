@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    height: 30vh;
+    width: 100%;
+    background-color: aqua;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 20% 20% 20% 20%;
+}
+
+.box1 {
+    background-color: azure;
+    grid-area: 2/3/2/1;
+}
